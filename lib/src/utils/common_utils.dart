@@ -597,6 +597,9 @@ Future<XFile?> cropImage({
           CropAspectRatioPreset.ratio16x9,
         ],
       ),
+      WebUiSettings(
+        context: context,
+      ),
     ],
   );
 
